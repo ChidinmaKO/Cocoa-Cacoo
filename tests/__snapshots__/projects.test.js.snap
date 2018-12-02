@@ -1,0 +1,1147 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Projects component matches the snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Projects />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "children": Array [
+        <Navigation>
+          <li>
+            Manage Projects
+          </li>
+          <li>
+            me
+          </li>
+          <li>
+            Logout
+          </li>
+        </Navigation>,
+        <styled.div
+          gutterWidth="60"
+          responsiveSm={true}
+        >
+          <styled.div
+            column="70"
+          >
+            <styled.div
+              gutterless={true}
+            >
+              <styled.div>
+                <h4>
+                  My Projects
+                </h4>
+              </styled.div>
+            </styled.div>
+            <ForwardRef />
+          </styled.div>
+          <styled.div>
+            <styled.div
+              gutterless={true}
+            >
+              <styled.div>
+                <h4>
+                  User Information
+                </h4>
+              </styled.div>
+            </styled.div>
+            <ForwardRef
+              padded={true}
+            >
+              <li>
+                <ForwardRef>
+                  <ForwardRef
+                    alt="img"
+                    src="https://cacoo.com/account/fSSuxzncJY40cCJd/image/32x32"
+                  />
+                  <h5>
+                    Name: Chidinma K.
+                  </h5>
+                </ForwardRef>
+              </li>
+            </ForwardRef>
+          </styled.div>
+        </styled.div>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": Array [
+            <li>
+              Manage Projects
+            </li>,
+            <li>
+              me
+            </li>,
+            <li>
+              Logout
+            </li>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Manage Projects",
+            },
+            "ref": null,
+            "rendered": "Manage Projects",
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "me",
+            },
+            "ref": null,
+            "rendered": "me",
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Logout",
+            },
+            "ref": null,
+            "rendered": "Logout",
+            "type": "li",
+          },
+        ],
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <styled.div
+              column="70"
+            >
+              <styled.div
+                gutterless={true}
+              >
+                <styled.div>
+                  <h4>
+                    My Projects
+                  </h4>
+                </styled.div>
+              </styled.div>
+              <ForwardRef />
+            </styled.div>,
+            <styled.div>
+              <styled.div
+                gutterless={true}
+              >
+                <styled.div>
+                  <h4>
+                    User Information
+                  </h4>
+                </styled.div>
+              </styled.div>
+              <ForwardRef
+                padded={true}
+              >
+                <li>
+                  <ForwardRef>
+                    <ForwardRef
+                      alt="img"
+                      src="https://cacoo.com/account/fSSuxzncJY40cCJd/image/32x32"
+                    />
+                    <h5>
+                      Name: Chidinma K.
+                    </h5>
+                  </ForwardRef>
+                </li>
+              </ForwardRef>
+            </styled.div>,
+          ],
+          "gutterWidth": "60",
+          "responsiveSm": true,
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": Array [
+                <styled.div
+                  gutterless={true}
+                >
+                  <styled.div>
+                    <h4>
+                      My Projects
+                    </h4>
+                  </styled.div>
+                </styled.div>,
+                <ForwardRef />,
+              ],
+              "column": "70",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": <styled.div>
+                    <h4>
+                      My Projects
+                    </h4>
+                  </styled.div>,
+                  "gutterless": true,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": <h4>
+                      My Projects
+                    </h4>,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "My Projects",
+                    },
+                    "ref": null,
+                    "rendered": "My Projects",
+                    "type": "h4",
+                  },
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "children": Array [],
+                },
+                "ref": null,
+                "rendered": Array [],
+                "type": Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "attrs": Array [],
+                  "componentStyle": ComponentStyle {
+                    "componentId": "sc-bwzfXH",
+                    "isStatic": false,
+                    "rules": Array [
+                      "
+  list-style: none;
+  margin: 10px 0 0;
+  padding: 0;
+  li {
+    background: #ffffff;
+    border: solid thin #bbb;
+    border-bottom: 0;
+    ",
+                      [Function],
+                      "
+    &:last-of-type{
+      border-bottom: solid thin #bbb;
+    }
+  }
+  summary {
+    padding: 10px 20px;
+    &::-webkit-details-marker{
+      display: none;
+    }
+    &:focus{
+      outline: solid thin #aaa;
+    }
+  }
+  details {
+    > div {
+      border-top: solid thin #bbb;
+      padding: 10px;
+      background: #f5f5f5;
+      h4 {
+        margin-top: 0;
+      }
+    }
+  }
+",
+                    ],
+                  },
+                  "displayName": "styled.ul",
+                  "render": [Function],
+                  "styledComponentId": "sc-bwzfXH",
+                  "target": "ul",
+                  "toString": [Function],
+                  "warnTooManyClasses": [Function],
+                  "withComponent": [Function],
+                },
+              },
+            ],
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": Array [
+                <styled.div
+                  gutterless={true}
+                >
+                  <styled.div>
+                    <h4>
+                      User Information
+                    </h4>
+                  </styled.div>
+                </styled.div>,
+                <ForwardRef
+                  padded={true}
+                >
+                  <li>
+                    <ForwardRef>
+                      <ForwardRef
+                        alt="img"
+                        src="https://cacoo.com/account/fSSuxzncJY40cCJd/image/32x32"
+                      />
+                      <h5>
+                        Name: Chidinma K.
+                      </h5>
+                    </ForwardRef>
+                  </li>
+                </ForwardRef>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": <styled.div>
+                    <h4>
+                      User Information
+                    </h4>
+                  </styled.div>,
+                  "gutterless": true,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": <h4>
+                      User Information
+                    </h4>,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "User Information",
+                    },
+                    "ref": null,
+                    "rendered": "User Information",
+                    "type": "h4",
+                  },
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "children": <li>
+                    <ForwardRef>
+                      <ForwardRef
+                        alt="img"
+                        src="https://cacoo.com/account/fSSuxzncJY40cCJd/image/32x32"
+                      />
+                      <h5>
+                        Name: Chidinma K.
+                      </h5>
+                    </ForwardRef>
+                  </li>,
+                  "padded": true,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <ForwardRef>
+                      <ForwardRef
+                        alt="img"
+                        src="https://cacoo.com/account/fSSuxzncJY40cCJd/image/32x32"
+                      />
+                      <h5>
+                        Name: Chidinma K.
+                      </h5>
+                    </ForwardRef>,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "children": Array [
+                        <ForwardRef
+                          alt="img"
+                          src="https://cacoo.com/account/fSSuxzncJY40cCJd/image/32x32"
+                        />,
+                        <h5>
+                          Name: Chidinma K.
+                        </h5>,
+                      ],
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "function",
+                        "props": Object {
+                          "alt": "img",
+                          "src": "https://cacoo.com/account/fSSuxzncJY40cCJd/image/32x32",
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": Object {
+                          "$$typeof": Symbol(react.forward_ref),
+                          "attrs": Array [],
+                          "componentStyle": ComponentStyle {
+                            "componentId": "sc-bZQynM",
+                            "isStatic": true,
+                            "rules": Array [
+                              "
+  border-radius: 50%;
+  margin-right: 20px;
+  width: 50px;
+  height: 50px;
+",
+                            ],
+                          },
+                          "displayName": "styled.img",
+                          "render": [Function],
+                          "styledComponentId": "sc-bZQynM",
+                          "target": "img",
+                          "toString": [Function],
+                          "warnTooManyClasses": [Function],
+                          "withComponent": [Function],
+                        },
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "Name: Chidinma K.",
+                        },
+                        "ref": null,
+                        "rendered": "Name: Chidinma K.",
+                        "type": "h5",
+                      },
+                    ],
+                    "type": Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "attrs": Array [],
+                      "componentStyle": ComponentStyle {
+                        "componentId": "sc-EHOje",
+                        "isStatic": false,
+                        "rules": Array [
+                          "
+  display: flex;
+  ",
+                          [Function],
+                          "
+  align-items: center;
+",
+                        ],
+                      },
+                      "displayName": "styled.div",
+                      "render": [Function],
+                      "styledComponentId": "sc-EHOje",
+                      "target": "div",
+                      "toString": [Function],
+                      "warnTooManyClasses": [Function],
+                      "withComponent": [Function],
+                    },
+                  },
+                  "type": "li",
+                },
+                "type": Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "attrs": Array [],
+                  "componentStyle": ComponentStyle {
+                    "componentId": "sc-bwzfXH",
+                    "isStatic": false,
+                    "rules": Array [
+                      "
+  list-style: none;
+  margin: 10px 0 0;
+  padding: 0;
+  li {
+    background: #ffffff;
+    border: solid thin #bbb;
+    border-bottom: 0;
+    ",
+                      [Function],
+                      "
+    &:last-of-type{
+      border-bottom: solid thin #bbb;
+    }
+  }
+  summary {
+    padding: 10px 20px;
+    &::-webkit-details-marker{
+      display: none;
+    }
+    &:focus{
+      outline: solid thin #aaa;
+    }
+  }
+  details {
+    > div {
+      border-top: solid thin #bbb;
+      padding: 10px;
+      background: #f5f5f5;
+      h4 {
+        margin-top: 0;
+      }
+    }
+  }
+",
+                    ],
+                  },
+                  "displayName": "styled.ul",
+                  "render": [Function],
+                  "styledComponentId": "sc-bwzfXH",
+                  "target": "ul",
+                  "toString": [Function],
+                  "warnTooManyClasses": [Function],
+                  "withComponent": [Function],
+                },
+              },
+            ],
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+    ],
+    "type": Symbol(react.fragment),
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": Array [
+          <Navigation>
+            <li>
+              Manage Projects
+            </li>
+            <li>
+              me
+            </li>
+            <li>
+              Logout
+            </li>
+          </Navigation>,
+          <styled.div
+            gutterWidth="60"
+            responsiveSm={true}
+          >
+            <styled.div
+              column="70"
+            >
+              <styled.div
+                gutterless={true}
+              >
+                <styled.div>
+                  <h4>
+                    My Projects
+                  </h4>
+                </styled.div>
+              </styled.div>
+              <ForwardRef />
+            </styled.div>
+            <styled.div>
+              <styled.div
+                gutterless={true}
+              >
+                <styled.div>
+                  <h4>
+                    User Information
+                  </h4>
+                </styled.div>
+              </styled.div>
+              <ForwardRef
+                padded={true}
+              >
+                <li>
+                  <ForwardRef>
+                    <ForwardRef
+                      alt="img"
+                      src="https://cacoo.com/account/fSSuxzncJY40cCJd/image/32x32"
+                    />
+                    <h5>
+                      Name: Chidinma K.
+                    </h5>
+                  </ForwardRef>
+                </li>
+              </ForwardRef>
+            </styled.div>
+          </styled.div>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": Array [
+              <li>
+                Manage Projects
+              </li>,
+              <li>
+                me
+              </li>,
+              <li>
+                Logout
+              </li>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Manage Projects",
+              },
+              "ref": null,
+              "rendered": "Manage Projects",
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "me",
+              },
+              "ref": null,
+              "rendered": "me",
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Logout",
+              },
+              "ref": null,
+              "rendered": "Logout",
+              "type": "li",
+            },
+          ],
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <styled.div
+                column="70"
+              >
+                <styled.div
+                  gutterless={true}
+                >
+                  <styled.div>
+                    <h4>
+                      My Projects
+                    </h4>
+                  </styled.div>
+                </styled.div>
+                <ForwardRef />
+              </styled.div>,
+              <styled.div>
+                <styled.div
+                  gutterless={true}
+                >
+                  <styled.div>
+                    <h4>
+                      User Information
+                    </h4>
+                  </styled.div>
+                </styled.div>
+                <ForwardRef
+                  padded={true}
+                >
+                  <li>
+                    <ForwardRef>
+                      <ForwardRef
+                        alt="img"
+                        src="https://cacoo.com/account/fSSuxzncJY40cCJd/image/32x32"
+                      />
+                      <h5>
+                        Name: Chidinma K.
+                      </h5>
+                    </ForwardRef>
+                  </li>
+                </ForwardRef>
+              </styled.div>,
+            ],
+            "gutterWidth": "60",
+            "responsiveSm": true,
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": Array [
+                  <styled.div
+                    gutterless={true}
+                  >
+                    <styled.div>
+                      <h4>
+                        My Projects
+                      </h4>
+                    </styled.div>
+                  </styled.div>,
+                  <ForwardRef />,
+                ],
+                "column": "70",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": <styled.div>
+                      <h4>
+                        My Projects
+                      </h4>
+                    </styled.div>,
+                    "gutterless": true,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": <h4>
+                        My Projects
+                      </h4>,
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "My Projects",
+                      },
+                      "ref": null,
+                      "rendered": "My Projects",
+                      "type": "h4",
+                    },
+                    "type": [Function],
+                  },
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "children": Array [],
+                  },
+                  "ref": null,
+                  "rendered": Array [],
+                  "type": Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "attrs": Array [],
+                    "componentStyle": ComponentStyle {
+                      "componentId": "sc-bwzfXH",
+                      "isStatic": false,
+                      "rules": Array [
+                        "
+  list-style: none;
+  margin: 10px 0 0;
+  padding: 0;
+  li {
+    background: #ffffff;
+    border: solid thin #bbb;
+    border-bottom: 0;
+    ",
+                        [Function],
+                        "
+    &:last-of-type{
+      border-bottom: solid thin #bbb;
+    }
+  }
+  summary {
+    padding: 10px 20px;
+    &::-webkit-details-marker{
+      display: none;
+    }
+    &:focus{
+      outline: solid thin #aaa;
+    }
+  }
+  details {
+    > div {
+      border-top: solid thin #bbb;
+      padding: 10px;
+      background: #f5f5f5;
+      h4 {
+        margin-top: 0;
+      }
+    }
+  }
+",
+                      ],
+                    },
+                    "displayName": "styled.ul",
+                    "render": [Function],
+                    "styledComponentId": "sc-bwzfXH",
+                    "target": "ul",
+                    "toString": [Function],
+                    "warnTooManyClasses": [Function],
+                    "withComponent": [Function],
+                  },
+                },
+              ],
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": Array [
+                  <styled.div
+                    gutterless={true}
+                  >
+                    <styled.div>
+                      <h4>
+                        User Information
+                      </h4>
+                    </styled.div>
+                  </styled.div>,
+                  <ForwardRef
+                    padded={true}
+                  >
+                    <li>
+                      <ForwardRef>
+                        <ForwardRef
+                          alt="img"
+                          src="https://cacoo.com/account/fSSuxzncJY40cCJd/image/32x32"
+                        />
+                        <h5>
+                          Name: Chidinma K.
+                        </h5>
+                      </ForwardRef>
+                    </li>
+                  </ForwardRef>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": <styled.div>
+                      <h4>
+                        User Information
+                      </h4>
+                    </styled.div>,
+                    "gutterless": true,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": <h4>
+                        User Information
+                      </h4>,
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "User Information",
+                      },
+                      "ref": null,
+                      "rendered": "User Information",
+                      "type": "h4",
+                    },
+                    "type": [Function],
+                  },
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "children": <li>
+                      <ForwardRef>
+                        <ForwardRef
+                          alt="img"
+                          src="https://cacoo.com/account/fSSuxzncJY40cCJd/image/32x32"
+                        />
+                        <h5>
+                          Name: Chidinma K.
+                        </h5>
+                      </ForwardRef>
+                    </li>,
+                    "padded": true,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <ForwardRef>
+                        <ForwardRef
+                          alt="img"
+                          src="https://cacoo.com/account/fSSuxzncJY40cCJd/image/32x32"
+                        />
+                        <h5>
+                          Name: Chidinma K.
+                        </h5>
+                      </ForwardRef>,
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "function",
+                      "props": Object {
+                        "children": Array [
+                          <ForwardRef
+                            alt="img"
+                            src="https://cacoo.com/account/fSSuxzncJY40cCJd/image/32x32"
+                          />,
+                          <h5>
+                            Name: Chidinma K.
+                          </h5>,
+                        ],
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "function",
+                          "props": Object {
+                            "alt": "img",
+                            "src": "https://cacoo.com/account/fSSuxzncJY40cCJd/image/32x32",
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": Object {
+                            "$$typeof": Symbol(react.forward_ref),
+                            "attrs": Array [],
+                            "componentStyle": ComponentStyle {
+                              "componentId": "sc-bZQynM",
+                              "isStatic": true,
+                              "rules": Array [
+                                "
+  border-radius: 50%;
+  margin-right: 20px;
+  width: 50px;
+  height: 50px;
+",
+                              ],
+                            },
+                            "displayName": "styled.img",
+                            "render": [Function],
+                            "styledComponentId": "sc-bZQynM",
+                            "target": "img",
+                            "toString": [Function],
+                            "warnTooManyClasses": [Function],
+                            "withComponent": [Function],
+                          },
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": "Name: Chidinma K.",
+                          },
+                          "ref": null,
+                          "rendered": "Name: Chidinma K.",
+                          "type": "h5",
+                        },
+                      ],
+                      "type": Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "attrs": Array [],
+                        "componentStyle": ComponentStyle {
+                          "componentId": "sc-EHOje",
+                          "isStatic": false,
+                          "rules": Array [
+                            "
+  display: flex;
+  ",
+                            [Function],
+                            "
+  align-items: center;
+",
+                          ],
+                        },
+                        "displayName": "styled.div",
+                        "render": [Function],
+                        "styledComponentId": "sc-EHOje",
+                        "target": "div",
+                        "toString": [Function],
+                        "warnTooManyClasses": [Function],
+                        "withComponent": [Function],
+                      },
+                    },
+                    "type": "li",
+                  },
+                  "type": Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "attrs": Array [],
+                    "componentStyle": ComponentStyle {
+                      "componentId": "sc-bwzfXH",
+                      "isStatic": false,
+                      "rules": Array [
+                        "
+  list-style: none;
+  margin: 10px 0 0;
+  padding: 0;
+  li {
+    background: #ffffff;
+    border: solid thin #bbb;
+    border-bottom: 0;
+    ",
+                        [Function],
+                        "
+    &:last-of-type{
+      border-bottom: solid thin #bbb;
+    }
+  }
+  summary {
+    padding: 10px 20px;
+    &::-webkit-details-marker{
+      display: none;
+    }
+    &:focus{
+      outline: solid thin #aaa;
+    }
+  }
+  details {
+    > div {
+      border-top: solid thin #bbb;
+      padding: 10px;
+      background: #f5f5f5;
+      h4 {
+        margin-top: 0;
+      }
+    }
+  }
+",
+                      ],
+                    },
+                    "displayName": "styled.ul",
+                    "render": [Function],
+                    "styledComponentId": "sc-bwzfXH",
+                    "target": "ul",
+                    "toString": [Function],
+                    "warnTooManyClasses": [Function],
+                    "withComponent": [Function],
+                  },
+                },
+              ],
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+      ],
+      "type": Symbol(react.fragment),
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
